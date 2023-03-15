@@ -22,7 +22,7 @@ param$Nb <- 30 # nutrient content at the bottom (mmol N/m^3)
 param$dz <- 2.5 # grid spacing (m)
 param$z <- seq(param$dz/2,100,by = param$dz) # depth (m)
 param$n <- length(param$z) # number of grid cells
-
+h
 
 # Define initial conditions - concentrations of phytoplankton and nutrients
 PND <- c(rep(10,param$n),rep(param$Nb, param$n),rep(0,param$n))
